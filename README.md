@@ -1,3 +1,11 @@
+# 🔧 Porting Status: ESPRowingMonitor on XIAO ESP32C6
+This fork started as an attempt to get the OpenRowingMonitor project running on the Seeed XIAO ESP32C6, mostly because I had one on hand. Other context is that my rower is a Waterrower A1 - with a newly broken screen - some config settings updated for this but not validated.
+
+I’m not a highly technical developer and have run into a number of issues, especially around Bluetooth (NimBLE) support, which currently isn’t working reliably on the C6 platform and may be incompatible. After spending quite a bit of time trying to get it going, I’ve decided to pause work on the C6 version and switch to trying the XIAO ESP32S3 instead, which is better supported.
+
+This repo may still be useful as a record of what I tried and where things broke.
+
+
 
 # ESP32 Rowing Monitor
 
